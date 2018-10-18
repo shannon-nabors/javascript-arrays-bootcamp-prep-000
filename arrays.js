@@ -6,8 +6,9 @@ var array = ['neon', 'gold', 'selenium'];
 var element = 'scandium';
 
 function addElementToBeginningOfArray(array, element) {
-  array = [element,...array];
-  return(array);
+  return([element,...array]);
+  //array = [element,...array];
+  //return(array);
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
